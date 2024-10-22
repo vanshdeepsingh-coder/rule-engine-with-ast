@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color:  #b3c6ff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: black;
+}
+
+form {
+    margin: 0;
+}
+
+form div, form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"], form textarea, form select {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 80px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: none;
+    background-color: #ff751a;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+form button:hover {
+    background-color: blue;
+}
+
+pre {
+    background-color: #f4f4f9;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.rule-container {
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #fafafa;
+    margin-bottom: 8px;
+}
+
+.rule-container label {
+    margin-right: 8px;
+}
+
+#add-rule {
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    form input[type="text"], form textarea, form select {
+        width: calc(100% - 16px);
+        padding: 6px;
+    }
+
+    form button {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    form textarea {
+        height: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 5px;
+        margin: 10px;
+    }
+
+    form input[type="text"], form textarea, form select {
+        width: calc(100% - 14px);
+        padding: 5px;
+    }
+
+    form button {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    form textarea {
+        height: 50px;
+    }
+}
