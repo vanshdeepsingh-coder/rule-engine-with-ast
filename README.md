@@ -1,5 +1,4 @@
 # Rule Engine Application
-Hosted link: https://app1-rule-engine-with-ast.onrender.com/
 
 ## Overview
 
@@ -56,7 +55,7 @@ This application is a rule engine that determines user eligibility based on attr
    Ensure that MongoDB is running on your local machine:
 
    ```bash
-   mongod
+   mongodb
    ```
 
 4. **Start the Backend Server**
@@ -143,4 +142,4 @@ variable operator value
 
 You can add and run tests to ensure everything is working correctly. 
 ```
-created bt: santosh sahoo
+created by: Vanshdeep Singh
